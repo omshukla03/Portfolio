@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Om Shukla Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: #ffff;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+    
+    <script type="module" src="/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+   
+  </head>
+  <body>
+ <header class="navbar">
+  <nav class="flex items-center justify-between px-6 md:px-10 py-4 relative">
+    <!-- Logo -->
+    <div class="left">
+      <a href="#home">
+        <img src="/images/logo-1.png" alt="logo" class="logo" />
+      </a>
+    </div>
+
+    <!-- Hamburger Icon -->
+    <div class="menu-icon md:hidden text-3xl text-[#071e48] cursor-pointer">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigation Menu -->
+    <ul class="nav-links hidden md:flex gap-6 absolute md:static bg-white md:bg-transparent top-16 right-6 rounded-lg shadow-md md:shadow-none p-4 md:p-0 z-50">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#portfolio" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact me</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+    <main>
+
+<section class="vert">
+  <div class="fixed top-1/3 left-3 z-50 hidden md:flex flex-col space-y-5">
+    
+    <a href="https://www.linkedin.com/in/omshukla2005/" target="_blank"
+       class="text-[#071e48] hover:text-[#007bff] hover:translate-x-1 transform transition-all duration-300 text-lg">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+
+    <a href="https://github.com/omshukla03" target="_blank"
+       class="text-[#071e48] hover:text-[#007bff] hover:translate-x-1 transform transition-all duration-300 text-lg">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://x.com/Om_Shukla_03" target="_blank"
+       class="text-[#071e48] hover:text-[#007bff] hover:translate-x-1 transform transition-all duration-300 text-lg">
+      <i class="fab fa-twitter"></i>
+    </a>
+
+    <a href="https://www.instagram.com/myselfomshukla?igsh=d2puNTR3aGVocThs" target="_blank"
+       class="text-[#071e48] hover:text-[#007bff] hover:translate-x-1 transform transition-all duration-300 text-lg">
+      <i class="fab fa-instagram"></i>
+    </a>
+
+  </div>
+</section>
+
+
+      <section id="home" class="firstSection">
+        <div class="leftSection" data-aos="fade-right">
+          <h2>Hi, I am</h2>
+          <h1>Om Shukla</h1>
+          <h3>Software Developer</h3>
+          <p>
+            Bridging technology and creativity to craft intuitive digital experiences. Committed to learning, building, and contributing to impactful projects.
+          </p>
+          <div class="buttons">
+            <a href="\assets\Om Shukla.pdf" download class="btn btn-primary"
+              >Download CV</a
+            >
+            <button class="btn btn-outline">
+              <a href="#contact">Contact Me</a></button>
+          </div>
+        </div>
+        <div class="rightSection" data-aos="fade-left" data-aos-duration="1500">
+  <img src="\images\front.png" alt="profile" class="profile" />
+</div>
+      </section>
+
+      <section class="capsule-section">
+        <div class="capsule-box">
+          <div class="capsule-item">
+            <img src="icons/learning.png" alt="Learning Icon" />
+            <h4>Fresher</h4>
+            <p>Actively Learning & Building</p>
+          </div>
+
+          <div class="capsule-item">
+            <img src="icons/assignment.png" alt="Projects Icon" />
+            <h4>3+ Projects</h4>
+            <p>Hands-on Experience</p>
+          </div>
+
+          <div class="capsule-item">
+            <img src="icons/github.png" alt="GitHub Icon" />
+            <h4>GitHub Ready</h4>
+            <p>Open Source Enthusiast</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-20 bg-white -mt-16">
+        <div
+          class="max-w-6xl mx-auto px-6 md:px-16 flex flex-col md:flex-row items-center md:items-start gap-12"
+        >
+          <!-- Image Section -->
+          <div class="relative w-64 flex-shrink-0">
+            <img
+              src="/images/front.png"
+              alt="About Me"
+              class="rounded-xl shadow-lg w-full object-cover"
+            />
+            <!-- Decorative Borders -->
+            <div
+              class="absolute top-0 left-0 w-20 h-20 border-t-4 border-l-4 border-blue-500 rounded-tl-lg"
+            ></div>
+            <div
+              class="absolute bottom-0 right-0 w-20 h-20 border-b-4 border-r-4 border-blue-500 rounded-br-lg"
+            ></div>
+          </div>
+
+          <!-- Text Section -->
+          <div class="w-full md:flex-1">
+            <p class="text-blue-500 font-semibold text-lg mb-2">My Intro</p>
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">About Me</h2>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              I'm a Computer Science fresher passionate about creating clean and
+              interactive digital experiences. I’ve built several personal
+              projects and constantly explore new tech. Currently open for
+              opportunities and collaborations.
+            </p>
+
+            <!-- Personal Info -->
+            <div class="space-y-4 text-gray-700">
+              <div class="flex items-center">
+                <i class="fas fa-user text-blue-500 mr-3 w-5"></i>
+                <strong class="w-20">Name</strong>
+                <span class="mx-2">:</span>
+                <span>Om Shukla</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-phone text-blue-500 mr-3 w-5"></i>
+                <strong class="w-20">Phone</strong>
+                <span class="mx-2">:</span>
+                <span>7208071838</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-envelope text-blue-500 mr-3 w-5"></i>
+                <strong class="w-20">Email</strong>
+                <span class="mx-2">:</span>
+                <span>work.omshukla@gmail.com</span>
+              </div>
+            </div>
+
+            <!-- Interests -->
+            <!-- Interests -->
+<div class="mt-10">
+  <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+    My Interests
+  </h3>
+  <div class="flex flex-wrap gap-6 text-lg">
+    <div class="flex items-center gap-2">
+      <i class="fas fa-microchip text-blue-500"></i>
+      <span style="color: #1B263B;">Tech</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <i class="fas fa-satellite-dish text-blue-500"></i>
+      <span style="color: #1B263B;">IoT</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <i class="fas fa-video text-blue-500"></i>
+      <span style="color: #1B263B;">Video Editing</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <i class="fas fa-pen-nib text-blue-500"></i>
+      <span style="color: #1B263B;">Content Writing</span>
+    </div>
+  </div>
+</div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<section id="skills" class="bg-[#edf2f8] py-20">
+  <div class="max-w-5xl mx-auto px-4">
+    <p class="text-sky-500 text-center text-lg font-semibold mb-2">Why Choose Me</p>
+    <h2 class="text-4xl font-bold text-center text-blue-900 mb-12">My Expertise Area</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-12">
+
+      <!-- Skill Item -->
+      <div>
+        <div class="flex justify-between mb-1">
+          <span class="text-blue-900 font-semibold">Java</span>
+          <span class="text-blue-900 font-semibold">80%</span>
+        </div>
+        <div class="w-full bg-gray-300 rounded-full h-2">
+          <div class="bg-sky-500 h-2 rounded-full fill-bar" data-width="80%"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-between mb-1">
+          <span class="text-blue-900 font-semibold">Hibernate</span>
+          <span class="text-blue-900 font-semibold">60%</span>
+        </div>
+        <div class="w-full bg-gray-300 rounded-full h-2">
+          <div class="bg-sky-500 h-2 rounded-full fill-bar" data-width="60%"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-between mb-1">
+          <span class="text-blue-900 font-semibold">Spring Boot</span>
+          <span class="text-blue-900 font-semibold">50%</span>
+        </div>
+        <div class="w-full bg-gray-300 rounded-full h-2">
+          <div class="bg-sky-500 h-2 rounded-full fill-bar" data-width="50%"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-between mb-1">
+          <span class="text-blue-900 font-semibold">JDBC</span>
+          <span class="text-blue-900 font-semibold">80%</span>
+        </div>
+        <div class="w-full bg-gray-300 rounded-full h-2">
+          <div class="bg-sky-500 h-2 rounded-full fill-bar" data-width="80%"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-between mb-1">
+          <span class="text-blue-900 font-semibold">PostgreSQL</span>
+          <span class="text-blue-900 font-semibold">80%</span>
+        </div>
+        <div class="w-full bg-gray-300 rounded-full h-2">
+          <div class="bg-sky-500 h-2 rounded-full fill-bar" data-width="80%"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-between mb-1">
+          <span class="text-blue-900 font-semibold">HTML, CSS</span>
+          <span class="text-blue-900 font-semibold">80%</span>
+        </div>
+        <div class="w-full bg-gray-300 rounded-full h-2">
+          <div class="bg-sky-500 h-2 rounded-full fill-bar" data-width="80%"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-between mb-1">
+          <span class="text-blue-900 font-semibold">JavaScript (JS)</span>
+          <span class="text-blue-900 font-semibold">50%</span>
+        </div>
+        <div class="w-full bg-gray-300 rounded-full h-2">
+          <div class="bg-sky-500 h-2 rounded-full fill-bar" data-width="50%"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-between mb-1">
+          <span class="text-blue-900 font-semibold">Figma</span>
+          <span class="text-blue-900 font-semibold">60%</span>
+        </div>
+        <div class="w-full bg-gray-300 rounded-full h-2">
+          <div class="bg-sky-500 h-2 rounded-full fill-bar" data-width="60%"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="py-16 bg-[#f8faff] text-[#0a1f44]" >
+  <div class="text-center mb-12" data-aos="fade-down">
+    <h4 class="text-sky-500 text-lg font-medium">MY Qualification</h4>
+    <h2 class="text-4xl font-extrabold mt-2">Awesome Journey</h2>
+  </div>
+
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-4">
+
+    <!-- Education -->
+    <div data-aos="fade-right" data-aos-delay="100">
+      <div class="flex items-center gap-2 mb-6 hover:scale-105 transition-transform duration-300">
+        <svg class="w-6 h-6 text-sky-500" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2L1 7l11 5 9-4.09V17h2V7L12 2z" />
+        </svg>
+        <h3 class="text-2xl font-semibold">Education</h3>
+      </div>
+
+      <div class="border-l-4 border-sky-500 pl-4 mb-6 hover:bg-sky-50 hover:text-sky-700 transition-all duration-300 rounded-md cursor-default" data-aos="fade-up" data-aos-delay="200">
+        <h4 class="text-lg font-semibold">B.Sc Computer Science</h4>
+        <p>VK Krishna Menon College, Mumbai University</p>
+        <p class="text-sky-500 mt-1 text-sm">2022 – 2025</p>
+      </div>
+
+      <div class="border-l-4 border-sky-500 pl-4 mb-6 hover:bg-sky-50 hover:text-sky-700 transition-all duration-300 rounded-md cursor-default" data-aos="fade-up" data-aos-delay="300">
+        <h4 class="text-lg font-semibold">HSC (Science – PCMB)</h4>
+        <p>IDUBS Jr. College, State Board</p>
+        <p class="text-sky-500 mt-1 text-sm">2021 – 2022</p>
+      </div>
+
+      <div class="border-l-4 border-sky-500 pl-4 hover:bg-sky-50 hover:text-sky-700 transition-all duration-300 rounded-md cursor-default" data-aos="fade-up" data-aos-delay="400">
+        <h4 class="text-lg font-semibold">SSC</h4>
+        <p>RAUBS English High School, State Board</p>
+        <p class="text-sky-500 mt-1 text-sm">2019 – 2020</p>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div data-aos="fade-left" data-aos-delay="100">
+      <div class="flex items-center gap-2 mb-6 hover:scale-105 transition-transform duration-300">
+        <svg class="w-6 h-6 text-sky-500" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h10v2H4z" />
+        </svg>
+        <h3 class="text-2xl font-semibold">Experience</h3>
+      </div>
+
+      <div class="border-l-4 border-sky-500 pl-4 hover:bg-sky-50 hover:text-sky-700 transition-all duration-300 rounded-md cursor-default" data-aos="fade-up" data-aos-delay="300">
+        <h4 class="text-lg font-semibold">Data Analyst Intern</h4>
+        <p>Foslipy Consultancy Service</p>
+        <p class="text-sky-500 mt-1 text-sm">Jan 2025 – Mar 2025</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="services" class="py-16 bg-[#f8faff] text-[#0a1f44]">
+  <div class="text-center mb-12" data-aos="fade-down">
+    <h4 class="text-sky-500 text-lg font-medium">Specialized In</h4>
+    <h2 class="text-4xl font-extrabold mt-2">What I Offer</h2>
+  </div>
+
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+
+    <!-- Card Example -->
+    <div class="bg-white p-6 rounded-3xl border hover:shadow-xl hover:scale-[1.03] hover:bg-sky-500 hover:text-white group transition duration-300" data-aos="zoom-in" data-aos-delay="100">
+      <div class="bg-sky-500 group-hover:bg-white p-2 inline-block rounded mb-4 transition duration-300">
+        <svg class="w-6 h-6 text-white group-hover:text-sky-500 transition duration-300" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h10v2H4z" />
+        </svg>
+      </div>
+      <h4 class="font-bold text-lg mb-2">Java & Frameworks</h4>
+      <p>Spring Boot, Hibernate, Core Java for backend development.</p>
+    </div>
+
+    <!-- Copy below for each card with different icon/content -->
+    <div class="bg-white p-6 rounded-3xl border hover:shadow-xl hover:scale-[1.03] hover:bg-sky-500 hover:text-white group transition duration-300" data-aos="zoom-in" data-aos-delay="200">
+      <div class="bg-sky-500 group-hover:bg-white p-2 inline-block rounded mb-4 transition duration-300">
+        <svg class="w-6 h-6 text-white group-hover:text-sky-500 transition duration-300" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M4 4h16v4H4zm0 6h16v2H4zm0 4h10v2H4z" />
+        </svg>
+      </div>
+      <h4 class="font-bold text-lg mb-2">Database</h4>
+      <p>Experience with PostgreSQL and MySQL for efficient data storage.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-3xl border hover:shadow-xl hover:scale-[1.03] hover:bg-sky-500 hover:text-white group transition duration-300" data-aos="zoom-in" data-aos-delay="300">
+      <div class="bg-sky-500 group-hover:bg-white p-2 inline-block rounded mb-4 transition duration-300">
+        <svg class="w-6 h-6 text-white group-hover:text-sky-500 transition duration-300" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2a10 10 0 00-4.8 18.8l1.6-1.2a8 8 0 116.4 0l1.6 1.2A10 10 0 0012 2z" />
+        </svg>
+      </div>
+      <h4 class="font-bold text-lg mb-2">IoT Development</h4>
+      <p>Working with ESP8266, sensors, GPS and automation systems.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-3xl border hover:shadow-xl hover:scale-[1.03] hover:bg-sky-500 hover:text-white group transition duration-300" data-aos="zoom-in" data-aos-delay="400">
+      <div class="bg-sky-500 group-hover:bg-white p-2 inline-block rounded mb-4 transition duration-300">
+        <svg class="w-6 h-6 text-white group-hover:text-sky-500 transition duration-300" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M8 2h8a2 2 0 012 2v6H6V4a2 2 0 012-2zm8 20H8a2 2 0 01-2-2v-6h12v6a2 2 0 01-2 2z" />
+        </svg>
+      </div>
+      <h4 class="font-bold text-lg mb-2">Python Programming</h4>
+      <p>Developing scripts, automations, and backend logic with Python.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-3xl border hover:shadow-xl hover:scale-[1.03] hover:bg-sky-500 hover:text-white group transition duration-300" data-aos="zoom-in" data-aos-delay="500">
+      <div class="bg-sky-500 group-hover:bg-white p-2 inline-block rounded mb-4 transition duration-300">
+        <svg class="w-6 h-6 text-white group-hover:text-sky-500 transition duration-300" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M3 5h18v2H3zm0 6h12v2H3zm0 6h18v2H3z" />
+        </svg>
+      </div>
+      <h4 class="font-bold text-lg mb-2">Content Writing</h4>
+      <p>Skilled in technical, academic, and blog content writing.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-3xl border hover:shadow-xl hover:scale-[1.03] hover:bg-sky-500 hover:text-white group transition duration-300" data-aos="zoom-in" data-aos-delay="600">
+      <div class="bg-sky-500 group-hover:bg-white p-2 inline-block rounded mb-4 transition duration-300">
+        <svg class="w-6 h-6 text-white group-hover:text-sky-500 transition duration-300" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M4 4h16v2H4zm0 4h16v2H4zm0 4h16v2H4z" />
+        </svg>
+      </div>
+      <h4 class="font-bold text-lg mb-2">Web Design</h4>
+      <p>Responsive UI with HTML, CSS, Tailwind & frontend logic.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="portfolio" class="py-16 bg-[#f2f7ff] text-center">
+  <div class="max-w-7xl mx-auto px-4">
+    <p class="text-sky-600 font-medium text-lg mb-2">My Portfolio</p>
+    <h2 class="text-4xl font-bold text-gray-800 mb-8">Recent Works</h2>
+
+    <!-- Filter Tabs -->
+ <div class="flex justify-center gap-6 mt-6 mb-8 text-base font-medium"> 
+  <button class="filter-btn active-tab text-blue-600" data-filter="all">All Projects</button> 
+  <button class="filter-btn text-gray-500 hover:text-blue-600" data-filter="web">Web Pages</button> 
+  <button class="filter-btn text-gray-500 hover:text-blue-600" data-filter="ui">UI Designs</button> 
+</div>
+
+
+    <!-- Portfolio Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 portfolio-grid">
+      
+      <!-- Project 1 -->
+      <div class="portfolio-item group transition-transform duration-300 transform hover:-translate-y-1 hover:shadow-xl bg-white rounded-xl shadow-lg" data-category="web">
+        <div class="relative overflow-hidden">
+          <img src="/images/EMS.png" alt="EMS" class="w-full">
+          <div class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 text-white p-4">
+            <h4 class="text-lg font-semibold mb-2">Employee Management System</h4>
+            <p class="text-sm">Manage employees using Java, JDBC & MySQL.</p>
+            <a href="https://github.com/omshukla03/LiberaryMangementSystem" target="_blank" class="mt-3 bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded text-white text-sm">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="portfolio-item group transition-transform duration-300 transform hover:-translate-y-1 hover:shadow-xl bg-white rounded-xl shadow-lg" data-category="web">
+        <div class="relative overflow-hidden">
+          <img src="/images/Quiz.png" alt="Quiz App" class="w-full">
+          <div class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 text-white p-4">
+            <h4 class="text-lg font-semibold mb-2">Quick Quiz App</h4>
+            <p class="text-sm">Interactive quiz app made with Java Swing.</p>
+            <a href="https://github.com/omshukla03/Quiz-Game" target="_blank" class="mt-3 bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded text-white text-sm">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="portfolio-item group transition-transform duration-300 transform hover:-translate-y-1 hover:shadow-xl bg-white rounded-xl shadow-lg" data-category="ui">
+        <div class="relative overflow-hidden">
+          <img src="/images/SMS-UI.png" alt="School UI" class="w-full">
+          <div class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 text-white p-4">
+            <h4 class="text-lg font-semibold mb-2">School Management UI</h4>
+            <p class="text-sm">Modern UI design for a school system.</p>
+            <a href="https://www.figma.com/design/fjScjiLrB5Ysz3BLlH3nKq/SMS?node-id=0-1&t=btdhtvpARVWJmWIs-1" target="_blank" class="mt-3 bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded text-white text-sm">View UI</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Future Projects Here -->
+      <!-- Add new .portfolio-item with same structure above and data-category -->
+    </div>
+
+    <!-- Show More Button -->
+    <div class="mt-10" id="show-more-container">
+      <button id="show-more-btn" class="bg-blue-500 hover:bg-blue-600 text-white font-medium px-6 py-3 rounded-full transition duration-300 shadow-md">
+        Show More
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="bg-blue-400 text-white text-center py-20 px-4">
+  <h2 class="text-3xl md:text-4xl font-semibold mb-4">
+    Have a Project on Your Mind? Let's Talk!
+  </h2>
+  <p class="max-w-xl mx-auto text-sm md:text-base mb-8 leading-relaxed">
+    I’m always excited to collaborate on new ideas, designs, or full-fledged apps.
+    Whether it’s a website, mobile UI, or system project — feel free to reach out!
+  </p>
+  <a href="#contact"
+     class="inline-block bg-white text-blue-500 font-semibold px-6 py-3 rounded-full shadow-md 
+            hover:bg-blue-100 hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out">
+    Contact Me
+  </a>
+</section>
+
+   <section class="contact-section" id="contact">
+    <div class="contact-form">
+      <h3>Contact Me</h3>
+      <form action="https://formsubmit.co/travel.omshukla@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <!-- FormSubmit Hidden Fields -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://om-shukla-portfolio.netlify.app/thankyou.html">
+        <input type="hidden" name="_template" value="box">
+
+        <input type="hidden" name="_autoresponse" value="Hey! 👋 Your message has been received by Om Shukla. I will get back to you shortly. Please do not reply to this email." />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <div class="contact-details">
+      <h3>Let's Connect</h3>
+      <p><i class="fas fa-phone"></i> <a href="tel:+917208071838">+91 7208071838</a></p>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:work.omshukla@gmail.com">work.omshukla@gmail.com</a></p>
+      <p><i class="fas fa-map-marker-alt"></i> 310/B, Diva, Thane</p>
+    </div>
+  </section>
+
+  <a href="https://wa.me/917208071838?text=Hi%20Om%2C%20I%20want%20to%20get%20in%20touch!" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+</main>
+
+<footer class="bg-[#0d0b24] text-white text-center py-10 rounded-b-md">
+  <div class="flex flex-col items-center gap-4">
+
+    <!-- Logo Image -->
+    <div class="w-16 h-16">
+      <img src="/images/logo-2.png" alt="Logo" class="w-full h-full object-contain" />
+    </div>
+
+    <!-- Description -->
+    <p class="max-w-md text-gray-400 text-sm">
+      Passionate about crafting scalable software, meaningful content, and beautiful web experiences.
+    </p>
+
+    <!-- Social Icons -->
+    <div class="flex gap-4 mt-4">
+      <a href="https://www.linkedin.com/in/omshukla2005/" target="_blank" class="bg-sky-600 hover:bg-sky-700 p-2 rounded-full transition">
+        <!-- LinkedIn Icon -->
+        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.271c-.966 0-1.75-.792-1.75-1.729s.784-1.729 1.75-1.729 1.75.792 1.75 1.729-.784 1.729-1.75 1.729zm13.5 10.271h-3v-4.5c0-1.104-.896-2-2-2s-2 .896-2 2v4.5h-3v-9h3v1.354c.697-1.046 2.038-1.771 3.5-1.771 2.481 0 4.5 2.019 4.5 4.5v4.917z"/>
+        </svg>
+      </a>
+
+      <a href="https://github.com/omshukla03" target="_blank" class="bg-gray-800 hover:bg-gray-900 p-2 rounded-full transition">
+        <!-- GitHub Icon -->
+        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 .5C5.375.5 0 5.875 0 12.5c0 5.3 3.438 9.8 8.207 11.385.6.112.793-.262.793-.583 0-.287-.01-1.045-.016-2.051-3.338.726-4.042-1.612-4.042-1.612-.546-1.387-1.333-1.755-1.333-1.755-1.09-.745.082-.73.082-.73 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.492.997.107-.775.418-1.305.76-1.605-2.665-.3-5.467-1.332-5.467-5.93 0-1.31.469-2.381 1.235-3.222-.123-.303-.535-1.521.117-3.172 0 0 1.008-.322 3.3 1.23a11.45 11.45 0 013.003-.403 11.45 11.45 0 013.003.403c2.291-1.553 3.297-1.23 3.297-1.23.653 1.651.241 2.869.119 3.172.77.841 1.233 1.912 1.233 3.222 0 4.61-2.807 5.626-5.479 5.921.43.37.823 1.102.823 2.222 0 1.606-.015 2.901-.015 3.293 0 .324.192.699.801.58C20.565 22.296 24 17.796 24 12.5 24 5.875 18.625.5 12 .5z"/>
+        </svg>
+      </a>
+
+      <a href="https://x.com/Om_Shukla_03" target="_blank" class="bg-[#1da1f2] hover:bg-[#1a91da] p-2 rounded-full transition">
+        <!-- Twitter Icon -->
+        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.018-.611 1.798-1.574 2.165-2.723-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.72 0-4.924 2.204-4.924 4.924 0 .386.044.762.128 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.423.724-.666 1.562-.666 2.475 0 1.708.87 3.215 2.188 4.099-.807-.026-1.566-.247-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.112-.849.171-1.296.171-.317 0-.626-.03-.928-.086.627 1.956 2.444 3.379 4.6 3.419-1.68 1.317-3.808 2.102-6.102 2.102-.396 0-.787-.023-1.175-.069 2.179 1.397 4.768 2.212 7.548 2.212 9.054 0 14.01-7.496 14.01-13.986 0-.213-.004-.426-.014-.637.961-.694 1.797-1.562 2.457-2.549z"/>
+        </svg>
+      </a>
+
+      <a href="https://www.instagram.com/myselfomshukla?igsh=d2puNTR3aGVocThs" target="_blank" class="bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 p-2 rounded-full transition">
+        <!-- Instagram Icon -->
+        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2.2c3.2 0 3.584.012 4.85.07 1.17.056 1.97.247 2.43.418a4.93 4.93 0 011.77 1.01c.49.49.84 1.08 1.01 1.77.17.46.362 1.26.418 2.43.058 1.267.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.247 1.97-.418 2.43a4.93 4.93 0 01-1.01 1.77 4.93 4.93 0 01-1.77 1.01c-.46.17-1.26.362-2.43.418-1.267.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.247-2.43-.418a4.93 4.93 0 01-1.77-1.01 4.93 4.93 0 01-1.01-1.77c-.17-.46-.362-1.26-.418-2.43C2.212 15.584 2.2 15.2 2.2 12s.012-3.584.07-4.85c.056-1.17.247-1.97.418-2.43a4.93 4.93 0 011.01-1.77 4.93 4.93 0 011.77-1.01c.46-.17 1.26-.362 2.43-.418C8.416 2.212 8.8 2.2 12 2.2m0-2.2C8.736 0 8.332.013 7.052.07 5.773.127 4.707.345 3.83.68a7.05 7.05 0 00-2.55 1.64A7.05 7.05 0 00.68 4.83c-.335.877-.553 1.943-.61 3.222C.013 8.332 0 8.736 0 12s.013 3.668.07 4.948c.057 1.279.275 2.345.61 3.222a7.05 7.05 0 001.64 2.55 7.05 7.05 0 002.55 1.64c.877.335 1.943.553 3.222.61C8.332 23.987 8.736 24 12 24s3.668-.013 4.948-.07c1.279-.057 2.345-.275 3.222-.61a7.05 7.05 0 002.55-1.64 7.05 7.05 0 001.64-2.55c.335-.877.553-1.943.61-3.222.057-1.279.07-1.683.07-4.947s-.013-3.668-.07-4.948c-.057-1.279-.275-2.345-.61-3.222a7.05 7.05 0 00-1.64-2.55 7.05 7.05 0 00-2.55-1.64C19.217.345 18.151.127 16.872.07 15.592.013 15.188 0 12 0zM12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a3.999 3.999 0 110-7.998 3.999 3.999 0 010 7.998zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="mt-6 text-sm text-gray-500">2025 Om Shukla — All Rights Reserved</p>
+  </div>
+</footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
